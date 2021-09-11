@@ -1,0 +1,15 @@
+# npx create-react-app cleint
+
+cd client
+
+# Client libraries
+
+npm install --save react-router-dom
+npm install --save bootstrap 
+npm install --save react-bootstrap 
+npm install --save axios 
+npm install --save redux 
+npm install --save react-redux 
+npm install --save redux-thunk 
+npm install --save redux-devtools-extension 
+npm install aos --save

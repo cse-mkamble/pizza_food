@@ -1,0 +1,13 @@
+
+# Server libraries
+
+npm install express --save 
+npm install mongoose --save 
+npm install dotenv --save 
+npm install cors --save 
+npm install cookie-parser --save 
+npm install nodemailer --save 
+
+
+npm install concurrently --save
+npm install --save-dev nodemon
