@@ -15,13 +15,14 @@ const App = () => {
       <Navbar />
       <div style={{ paddingTop: '100px' }}>
         <BrowserRouter>
-          <Route path="/" exact component={Homescreen} />
-          <Route path="/cart" exact component={Cartscreen} />
-          <Route path="/login" exact component={Loginscreen} />
-          <Route path="/register" exact component={Registerscreen} />
-          <Route path="/myorders" exact component={Orderscreen} />
-          <Route path="/admin" component={Adminscreen} />
-
+          <Switch>
+            <Route path="/" exact component={Homescreen} />
+            <Route path="/cart" exact component={Cartscreen} />
+            <Route path="/login" exact component={Loginscreen} />
+            <Route path="/register" exact component={Registerscreen} />
+            <Route path="/myorders" exact component={Orderscreen} />
+            <Route path="/admin" component={Adminscreen} />
+          </Switch>
         </BrowserRouter>
       </div>
     </div>
